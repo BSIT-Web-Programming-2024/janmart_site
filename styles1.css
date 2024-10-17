@@ -1,18 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: rgb(100, 30, 30);
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #237a52c0;
+    color: #26ad1a;
     padding: 1rem 0;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(88, 9, 9, 0.2);
 }
 
 header h1 {
@@ -30,14 +30,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #201f1f;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ddd;
+    color: #5e0c25;
 }
 
 .section {
@@ -55,7 +55,7 @@ nav ul li a:hover {
 h2 {
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: #333;
+    color: #0c8f28;
 }
 
 .about-section {
