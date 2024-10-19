@@ -3,80 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles1.css">
-    
-        </div>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jan's Portfolio</h1>
+        <p>Web Developer | Designer | Programer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about" class="section fade-in">
-        <div class="container about-section">
-            <img src="jan.jpg" alt="Jan Formal" class="profile-image" >
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>Hi, I'm a Jan Mart B. Macadaeg web developer with a passion for creating beautiful and functional websites. I specialize in HTML, CSS, JavaScript, and more. My goal is to bring ideas to life with clean, efficient, and user-friendly code.</p>
-            </div>
-        </div>
+    <section id="about">
+        <img src="jan.jpg" alt="Jan Formal" class="profile-image" >
+        <h2>About Me</h2>
+        <p>Hi, I'm a Jan Mart B. Macadaeg web developer with a passion for creating beautiful and functional websites. I specialize in HTML, CSS, JavaScript, and more. My goal is to bring ideas to life with clean, efficient, and user-friendly code.</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section fade-in">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <img src="logo maker.gif" alt="Kyrie jhonson">
-                    <h3>Project 1</h3>
-                    <p>Start using logo maker today. To create the perfect logo for your business, enter your business name. Our advanced algoirthms will generated beautiful logos designs completely tailored to your industry. If you want to refine the logos and generate more you can enter keywords to find the exact logo to fit your business.</p>
-                </div>
-                <div class="project">
-                    <img src="gta.jfif" alt="gta5">
-                    <h3>Project 2</h3>
-                    <p>Grand Theft Auto V (GTA V) is an open-world action-adventure game developed by Rockstar North and released by Rockstar Games in 2013. Set in the fictional state of San Andreas, which is based on Southern California, the game allows players to explore the sprawling city of Los Santos and its surrounding countryside.</p>
-                </div>
-                <div class="project">
-                    <img src="nba.jpg" alt="kobe">
-                    <h3>Project 3</h3>
-                    <p>The NBA is known for showcasing some of the most skilled and athletic players globally, such as Michael Jordan, Kobe Bryant, LeBron James, and Stephen Curry, who have shaped the sport's legacy. The league is organized into two conferences, the Eastern and Western, and each conference is divided into three divisions. The teams compete for the NBA Championship, awarded at the conclusion of the playoffs.</p>
-                </div>
-            </div>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Logo Maker</h3>
+            <p>Start using logo maker today. To create the perfect logo for your business, enter your business name. Our advanced algoirthms will generated beautiful logos designs completely tailored to your industry. If you want to refine the logos and generate more you can enter keywords to find the exact logo to fit your business.</p>
+            <img src="logo maker.gif" alt="Kyrie jhonson">
+        </div>
+        <div class="project">
+            <h3>GTA5</h3>
+            <p>Grand Theft Auto V (GTA V) is an open-world action-adventure game developed by Rockstar North and released by Rockstar Games in 2013. Set in the fictional state of San Andreas, which is based on Southern California, the game allows players to explore the sprawling city of Los Santos and its surrounding countryside.</p>
+            <img src="gta.jfif" alt="gta5">
+        </div>
+        <div class="project">
+            <h4>NBA</h4>
+            <p>The NBA is known for showcasing some of the most skilled and athletic players globally, such as Michael Jordan, Kobe Bryant, LeBron James, and Stephen Curry, who have shaped the sport's legacy. The league is organized into two conferences, the Eastern and Western, and each conference is divided into three divisions. The teams compete for the NBA Championship, awarded at the conclusion of the playoffs.</p>
+            <img src="nba.jpg" alt="kobe">
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section fade-in">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: jmmacadaeg17@gmail.com</p>
-            <p1>Facebook: https://www.facebook.com/Kiefernlex15/</p1>
-
-
-
-        </div>
+        
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="jmmacadaeg17@gmail.com">jmmacadaeg17@gmail.com</a></p>
+        <p1>Facebook: <a href="https://www.facebook.com/Kiefernlex15/">https://www.facebook.com/Kiefernlex15/</a></p1>
+        <p2>Contact#: <a href="09056531625">090565531625</a></p2>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 My Portfolio</p>
-        </div>
+        <p>&copy; 2024 Jan Mart B. Macadaeg. All rights reserved. Data Center Collage Baguio</p>
     </footer>
-
-    <!-- Intersection Observer for Animation -->
-    <script>
-        const sections = document.querySelectorAll('.fade-in');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in-visible');
-                }
-            });
-        });
-
-        sections.forEach(section => {
-            observer.observe(section);
-        });
-    </script>
 </body>
 </html>
