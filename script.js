@@ -13,14 +13,3 @@ window.onload = typeWriter;
 
 const fadeInSections = document.querySelectorAll(".fade-in-section");
 
-function checkVisibility() {
-    fadeInSections.forEach((section) => {
-        const rect = section.getBoundingClientRect();
-        if (rect.top < window.innerHeight * 0.8) {
-            section.classList.add("visible");
-        }
-    });
-}
-
-window.addEventListener("scroll", checkVisibility);
-checkVisibility(); 
