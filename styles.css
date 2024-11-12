@@ -94,3 +94,23 @@ footer {
         border-color: transparent;
     }
 }
+.typing-animation1 {
+    font-size: 2em;
+    color: #ebb112;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid rgb(238, 15, 153); 
+    width: fit-content;
+    animation: caret 0.6s steps(1) infinite;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(219, 223, 10);
+    padding: 10px;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
