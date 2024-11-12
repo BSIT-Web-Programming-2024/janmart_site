@@ -80,7 +80,7 @@ footer {
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.15em solid orange; /* Blinking cursor */
+    border-right: 0.15em solid orange; 
     width: fit-content;
     animation: caret 0.6s steps(1) infinite;
     margin: auto;
