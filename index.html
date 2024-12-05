@@ -17,7 +17,8 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact me">Contact ME</a></li>
+                <li><a href="#contact client">Contact Client</a></li>
                 <li><a href="#skills">Skills</a></li>
             </ul>
         </nav>
@@ -61,7 +62,6 @@
     <section id="skills">
         <h5>Skills</h5>
         <div class="skills">
-            <h6>Problem Solving</h6>
             <p>Problem-solving is essential as it involves breaking down issues and devising effective solutions.
                 Understanding of arrays, linked lists, trees, graphs, sorting, and searching algorithms is essential in the realm of Data Structures and Algorithms.
                 Proficiency in various programming languages, such as Python, Java, JavaScript, C++, or Go, can be advantageous. Each language excels in various domains, with Python being ideal for data science and JavaScript being well-suited for web development.
@@ -74,12 +74,33 @@
         </div>
     </section>
         
-    <section id="contact">
+    <section id="contact me">
         <h2>Contact Me</h2>
         <p>Email: <a href="jmmacadaeg17@gmail.com">jmmacadaeg17@gmail.com</a></p>
         <p1>Facebook: <a href="https://www.facebook.com/Kiefernlex15/">https://www.facebook.com/Kiefernlex15/</a></p1>
         <p2>Contact#: <a href="09056531625">090565531625</a></p2>
     </section>
+
+    <h3>Contact Client</h3>
+
+    <form action="contact.php" method="POST">
+        <label for="name">Nick Name:</label>
+        <input type="text" id="nickname" name="name" required>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="fullname" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Contact:</label>
+        <input type="text" id="contact" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message">
+    </form>
 </body>
     <footer>
         <p>&copy; 2024 Jan Mart B. Macadaeg. All rights reserved. Data Center Collage Baguio</p>
